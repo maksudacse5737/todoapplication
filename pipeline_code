@@ -5,7 +5,7 @@ pipeline {
         stage('Cloning code') {
             steps {
                 echo 'cloning..'
-                git url:"https://github.com/maksudacse5737/todoappf.git", branch: "main"
+                git url:"https://github.com/maksudacse5737/todoapplication.git", branch: "main"
             }
         }
         stage('Build') {
